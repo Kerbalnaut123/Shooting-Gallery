@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 4A959696
+/// @DnDHash : 2A496D54
 instance_destroy();
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Score
