@@ -5,16 +5,6 @@
     "name": "object_duck",
     "eventList": [
         {
-            "id": "45899f7a-9d4d-4023-a8f8-bf3dbca49204",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "15642999-c2f0-45e1-8af7-dd40b0b7dd0a"
-        },
-        {
             "id": "dfd5255c-09f3-44a8-a85b-2f706aa6622a",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,6 +22,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 1,
             "eventtype": 7,
+            "m_owner": "15642999-c2f0-45e1-8af7-dd40b0b7dd0a"
+        },
+        {
+            "id": "5e3dd37b-770c-4df7-8e1c-8e7168e64ce2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "15642999-c2f0-45e1-8af7-dd40b0b7dd0a"
         }
     ],
