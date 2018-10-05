@@ -34,13 +34,13 @@ alarm_set(2, 1);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 3C3D1C52
-/// @DnDArgument : "steps" "irandom_range(300, 600)"
+/// @DnDArgument : "steps" "irandom_range(600, 1800)"
 /// @DnDArgument : "alarm" "3"
-alarm_set(3, irandom_range(300, 600));
+alarm_set(3, irandom_range(600, 1800));
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 7EF8B7F9
-/// @DnDArgument : "steps" "irandom_range(120, 300)"
+/// @DnDArgument : "steps" "irandom_range(150, 240)"
 /// @DnDArgument : "alarm" "4"
-alarm_set(4, irandom_range(120, 300));
+alarm_set(4, irandom_range(150, 240));

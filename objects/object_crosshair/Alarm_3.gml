@@ -24,6 +24,6 @@ with(object_targetbullets) {
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 56115B66
-/// @DnDArgument : "steps" "irandom_range(300, 600)"
+/// @DnDArgument : "steps" "irandom_range(600, 1800)"
 /// @DnDArgument : "alarm" "3"
-alarm_set(3, irandom_range(300, 600));
+alarm_set(3, irandom_range(600, 1800));

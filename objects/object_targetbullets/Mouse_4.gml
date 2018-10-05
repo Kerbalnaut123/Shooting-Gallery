@@ -1,3 +1,14 @@
+/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
+/// @DnDVersion : 1
+/// @DnDHash : 239BA103
+/// @DnDApplyTo : 0b36e681-53e5-440b-bb81-7d743c1c23a1
+/// @DnDArgument : "lives" "10"
+/// @DnDArgument : "lives_relative" "1"
+with(object_crosshair) {
+if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
+__dnd_lives += real(10);
+}
+
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 1309813A
@@ -9,14 +20,6 @@ with(object_stick) {
 sprite_index = sprite_stick;
 image_index = 1;
 }
-
-/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
-/// @DnDVersion : 1
-/// @DnDHash : 239BA103
-/// @DnDArgument : "lives" "10"
-/// @DnDArgument : "lives_relative" "1"
-if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
-__dnd_lives += real(10);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
