@@ -20,8 +20,8 @@ if(__dnd_score <= 25)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4BD4256F
 	/// @DnDParent : 7ADDA316
-	/// @DnDArgument : "steps" "60"
-	alarm_set(0, 60);
+	/// @DnDArgument : "steps" "irandom_range(150, 240)"
+	alarm_set(0, irandom_range(150, 240));
 }
 
 /// @DnDAction : YoYo Games.Instance Variables.If_Score
@@ -36,5 +36,6 @@ if(__dnd_score >= 26)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4A3A04CA
 	/// @DnDParent : 63A624CD
-	alarm_set(0, 30);
+	/// @DnDArgument : "steps" "irandom_range(90, 150)"
+	alarm_set(0, irandom_range(90, 150));
 }
