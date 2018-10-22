@@ -1,6 +1,16 @@
+/// @DnDAction : YoYo Games.Particles.Effect
+/// @DnDVersion : 1
+/// @DnDHash : 6EC26702
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "type" "7"
+/// @DnDArgument : "size" "1"
+/// @DnDArgument : "color" "$FF003FFF"
+effect_create_below(7, x + 0, y + 0, 1, $FF003FFF & $ffffff);
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 2A496D54
+/// @DnDHash : 487303F6
 instance_destroy();
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Score

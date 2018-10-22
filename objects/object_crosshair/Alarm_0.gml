@@ -2,11 +2,11 @@
 /// @DnDVersion : 1
 /// @DnDHash : 1C201A4C
 /// @DnDArgument : "xpos" "irandom_range(300, 750)"
-/// @DnDArgument : "ypos" "600"
+/// @DnDArgument : "ypos" "565"
 /// @DnDArgument : "objectid" "object_duck"
 /// @DnDArgument : "layer" ""Instances_2""
 /// @DnDSaveInfo : "objectid" "15642999-c2f0-45e1-8af7-dd40b0b7dd0a"
-instance_create_layer(irandom_range(300, 750), 600, "Instances_2", object_duck);
+instance_create_layer(irandom_range(300, 750), 565, "Instances_2", object_duck);
 
 /// @DnDAction : YoYo Games.Instance Variables.If_Score
 /// @DnDVersion : 1
