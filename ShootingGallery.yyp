@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "22b3bb18-a261-47ac-85fb-8754a0d69618",
+            "Value": {
+                "id": "bd842800-4cb6-4b18-9fb5-1acd7bb8a975",
+                "resourcePath": "sounds\\sound_fire\\sound_fire.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2869be72-ee87-4df2-a10a-e005d2c678c4",
             "Value": {
                 "id": "4011466c-4673-449b-9733-5245a862c94d",
@@ -100,6 +108,14 @@
                 "id": "84a95936-d1f2-48c5-bdce-ea7ae53100ba",
                 "resourcePath": "views\\3f215074-3567-49b4-b18c-b817c8c60567.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3f654e48-008e-4b8d-9e2a-1b0b7fb12f54",
+            "Value": {
+                "id": "3eee0cae-2e32-4f6f-91f6-620eb8f79ff3",
+                "resourcePath": "sounds\\sound_magazine_eject\\sound_magazine_eject.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -164,6 +180,14 @@
                 "id": "ff1ce587-178c-43ad-87c9-5e22dd004a6b",
                 "resourcePath": "views\\56b2917e-2392-495f-9a68-dcd8b3d726e5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "580605d1-5614-421c-9bae-a79836073fa6",
+            "Value": {
+                "id": "5605d665-f320-41cd-83c7-98fd971fefdb",
+                "resourcePath": "sounds\\sound_quack\\sound_quack.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -335,6 +359,14 @@
             }
         },
         {
+            "Key": "8550f3a3-2dfa-4988-b13b-a92fff72aa28",
+            "Value": {
+                "id": "4d08aff8-aeb6-4a0d-8314-de096a85098d",
+                "resourcePath": "sounds\\sound_insert_clip\\sound_insert_clip.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "93192b2f-3e11-4703-b267-40fcdec0d169",
             "Value": {
                 "id": "1067bf0f-049d-4dd1-9417-1dbbe20db2ec",
@@ -468,6 +500,14 @@
                 "id": "0a748daf-2c63-497d-866f-5ec7dae64fb7",
                 "resourcePath": "fonts\\font_hud_score\\font_hud_score.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "d51a4b38-b068-4974-b171-773663aa94a2",
+            "Value": {
+                "id": "06bed86d-e85c-48a7-aa09-6ef6af681769",
+                "resourcePath": "sounds\\sound_shotgun_pump\\sound_shotgun_pump.yy",
+                "resourceType": "GMSound"
             }
         },
         {
