@@ -34,9 +34,9 @@ alarm_set(2, 1);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 3C3D1C52
-/// @DnDArgument : "steps" "irandom_range(600, 1800)"
+/// @DnDArgument : "steps" "irandom_range(600, 1000)"
 /// @DnDArgument : "alarm" "3"
-alarm_set(3, irandom_range(600, 1800));
+alarm_set(3, irandom_range(600, 1000));
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

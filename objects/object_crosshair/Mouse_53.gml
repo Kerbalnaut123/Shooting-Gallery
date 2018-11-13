@@ -46,6 +46,5 @@ effect_create_below(5, 835, 625, 1, $FF7F7F7F & $ffffff);
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "type" "1"
-/// @DnDArgument : "where" "1"
 /// @DnDArgument : "color" "$FFFFBB00"
-effect_create_above(1, x + 0, y + 0, 0, $FFFFBB00 & $ffffff);
+effect_create_below(1, x + 0, y + 0, 0, $FFFFBB00 & $ffffff);
