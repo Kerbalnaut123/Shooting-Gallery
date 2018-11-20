@@ -21,8 +21,10 @@ __dnd_lives = real(15);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 05E9F93C
-/// @DnDArgument : "code" "window_set_cursor(cr_none);"
+/// @DnDArgument : "code" "window_set_cursor(cr_none);$(13_10)draw_text(x=445,y=715,string(alarm[5]));$(13_10)string(ceil(alarm[5]/room_speed));"
 window_set_cursor(cr_none);
+draw_text(x=445,y=715,string(alarm[5]));
+string(ceil(alarm[5]/room_speed));
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
@@ -44,3 +46,10 @@ alarm_set(3, irandom_range(600, 1000));
 /// @DnDArgument : "steps" "irandom_range(150, 240)"
 /// @DnDArgument : "alarm" "4"
 alarm_set(4, irandom_range(150, 240));
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 4767BB08
+/// @DnDArgument : "steps" "5400"
+/// @DnDArgument : "alarm" "5"
+alarm_set(5, 5400);

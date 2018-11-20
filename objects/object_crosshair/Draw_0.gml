@@ -32,3 +32,9 @@ for(var l7D2E7EFA_2 = __dnd_lives; l7D2E7EFA_2 > 0; --l7D2E7EFA_2) {
 	draw_sprite(sprite_ammo, 0, 50 + l7D2E7EFA_1, 725);
 	l7D2E7EFA_1 += l7D2E7EFA_0;
 }
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 0FA78C86
+/// @DnDArgument : "code" "draw_text(490,0,string(floor(alarm[5]/room_speed)));"
+draw_text(490,0,string(floor(alarm[5]/room_speed)));
